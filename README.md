@@ -32,6 +32,10 @@ To run this project, you need to have the following tools and libraries installe
   - `tensorflow` or `keras` - For building and training the machine learning model (includes Keras)
   - `scikit-learn` - For model evaluation metrics and data splitting
   - `opencv-python` - For additional image processing capabilities
+  - `os` - Provides functions to interact with the operating system
+  - `kagglehub` - Facilitates downloading and managing datasets from Kaggle
+  - `requests` - Simplifies making HTTP requests
+  - `io.BytesIO` - Handles in-memory binary data streams, simulating file operations
 
 You can install all the necessary libraries using `pip`:
 
@@ -50,6 +54,10 @@ Para executar este projeto, você precisa ter as seguintes ferramentas e bibliot
   - `tensorflow` or `keras` - Para construir e treinar o modelo de machine learning (inclui Keras)
   - `scikit-learn` - Para métricas de avaliação de modelos e divisão de dados
   - `opencv-python` - Para recursos adicionais de processamento de imagens
+  - `os` - Fornece funções para interagir com o sistema operacional
+  - `kagglehub` - Facilita o download e gerenciamento de conjuntos de dados do Kaggle
+  - `requests` - Simplifica o envio de requisições HTTP
+  - `io.BytesIO` - Manipula fluxos de dados binários na memória, simulando operações de arquivo
   
 Você pode instalar todas as bibliotecas necessárias usando `pip`:
 
@@ -85,11 +93,22 @@ jupyter notebook
 This will open a web interface in your browser. Navigate to the notebook file `(.ipynb)` that contains your CNN code.
 
 5. **Run the Notebook Cells In Order**
-6. **Make Custom Predictions:**
+   - Imports
+   - Reading Data
+   - Training Data and Show
+   - Training & Testing data for Work
+   - Initialize the model
+   - Classifying New Photos
+
+6. **URL´s**
+   Do not forget to change for the right path
+
+7. **Make Custom Predictions:**
 At the end of the notebook, there should be a module that allows you to upload a photo. Use this section to test the model with your own images of wolves or dogs.
 The code will display whether the image is classified as a wolf or a dog, along with the prediction accuracy.
-7. **Aditional Notes:**
-Depending on your code, you may need to adjust the file paths or the hyperparameters of the neural network.
+
+8. **Aditional Notes:**
+Make sure all libraries are imported.
    
 **[PT-BR]**
 Siga estas etapas para executar o código da CNN para classificar imagens de lobos e cães:
@@ -123,17 +142,28 @@ jupyter notebook
 Isso abrirá uma interface web no seu navegador. Navegue até o arquivo do notebook `(.ipynb)` que contém seu código da CNN.
 
 5. **Execute as Células do Notebook em Ordem**
-6. **Faça Previsões Personalizadas:**
+   - Imports
+   - Reading Data
+   - Training Data and Show
+   - Training & Testing data for Work
+   - Initialize the model
+   - Classifying New Photos
+
+6. **URL´s**
+Não se esqueça de mudar para o caminho correto
+   
+7. **Faça Previsões Personalizadas:**
 No final do notebook, deve haver um módulo que permite que você faça upload de uma foto. Use esta seção para testar o modelo com suas próprias imagens de lobos ou cães.
 O código exibirá se a imagem é classificada como um lobo ou um cão, juntamente com a precisão da previsão.
-7. **Notas Adicionais:**
-Dependendo do seu código, você pode precisar ajustar os caminhos dos arquivos ou os hiperparâmetros da rede neural.
+
+8. **Notas Adicionais:**
+Garanta que todas as bibliotecas sejam importadas
 
 ## 6. Copyright and Acknowledgements
 **[ENG]**
 - Copyright
 
-This project and its code are © [LauPiv], [2024]. All rights reserved.
+This project and its code are [@LauraPiv], [2024]. All rights reserved.
 
 - Acknowledgements
 
@@ -146,7 +176,7 @@ Please refer to the dataset's page for more information regarding its usage righ
 **[PT-BR]**
 - Direitos Autorais
 
-Este projeto e seu código são © [LauPiv], [2024]. Todos os direitos reservados.
+Este projeto e seu código são [@LauraPiv], [2024]. Todos os direitos reservados.
 
 - Agradecimentos
 
